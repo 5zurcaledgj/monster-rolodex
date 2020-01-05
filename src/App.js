@@ -27,6 +27,8 @@ class App extends Component {
       monster.name.toLowerCase().includes(searchField)
     );
 
+    console.log(filteredMonsters);
+
     return (
       <div className="App">
         <h1>Monster Rolodex</h1>
